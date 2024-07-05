@@ -27,8 +27,14 @@
 # greet("Jess")
 
 #func w 2 parameters
-def greet_with(name, location):
-    print(f"Hello, {name}")
-    print(f"WHat is it like in {location} ?")
+# def greet_with(name, location):
+#     print(f"Hello, {name}")
+#     print(f"WHat is it like in {location} ?")
 
-greet_with("Jess", "nomansland")
+# greet_with("Jess", "nomansland")
+
+def greet_w(name, location):
+    print(f"Hello, {name}")
+    print(f"Are you planning on visiting {location} in the near future?")
+
+greet_w(location="Spain", name= "Jess")
